@@ -5,12 +5,12 @@
     font-size: x-large;
 }
 .calc{
-    border: 10px solid black;
+    border: 10px ridge rgb(59, 57, 57);
     display: flex;
     height: 500px;
     width: 400px;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px 5px;
     gap: 6px;
     background-color: #0D0F0D;
@@ -70,6 +70,8 @@ button {
     border: 1px solid rgb(190, 184, 184);
     height: 300px;
     border-radius: 5px;
+    
+   
 }
 
 #enter{
@@ -87,5 +89,29 @@ footer{
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: 160px;
+    margin-top: 150px;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+#answer {
+    display: flex;
+    justify-content: end;
+    /* align-items: flex-end; Add this line */
+    margin-right: 5px;
+    color: rgb(6, 235, 227);
+    margin-top: 80px;
+    font-size: 1.2em;
+}
+
+#question{
+    display: flex;
+    margin-top: 30px;
+    color: rgb(6, 235, 227);
+    margin-left: 5px;
 }
